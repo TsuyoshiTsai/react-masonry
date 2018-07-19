@@ -1,0 +1,31 @@
+{
+  "name": "react-masonry",
+  "version": "0.1.0",
+  "description": "React.js component for masonry layout.",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TsuyoshiTsai/react-masonry.git"
+  },
+  "keywords": [
+    "masonry"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/TsuyoshiTsai/react-masonry/issues"
+  },
+  "homepage": "https://github.com/TsuyoshiTsai/react-masonry#readme",
+  "license": "ISC"
+}
