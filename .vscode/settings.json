@@ -1,0 +1,25 @@
+{
+  // editor
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+
+  // files
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+
+  // emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // eslint and prettier
+  "eslint.autoFixOnSave": true,
+
+  // javascript
+  "javascript.format.enable": false, // for prettier
+
+  // prettier
+  "prettier.eslintIntegration": true, // format code by eslint with prettier
+}
