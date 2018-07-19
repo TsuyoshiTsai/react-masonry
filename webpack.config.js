@@ -18,7 +18,7 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["es2015, react"],
+            presets: ["es2016, react"],
             plugins: ["transform-object-rest-spread", "transform-react-jsx"]
           }
         }
@@ -30,12 +30,7 @@ module.exports = {
     extensions: [".json", ".js"]
   },
   externals: {
-    react: {
-      root: "React",
-      commonjs2: "react",
-      commonjs: "react",
-      amd: "react",
-      umd: "react"
-    }
+    react: "react",
+    "resize-observer-polyfill": "resize-observer-polyfill"
   }
 };

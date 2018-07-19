@@ -9,12 +9,15 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "dependencies": {
+  "devDependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "prop-types": "^15.6.2"
   },
-  "devDependencies": {},
+  "dependencies": {
+    "resize-observer-polyfill": "1.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/TsuyoshiTsai/react-masonry.git"
